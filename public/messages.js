@@ -5,7 +5,7 @@ var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "S
 
 const messages = [
     {
-        title: "Bos",
+        title: "Boss",
         description: 'Click on Add note button up👆😃 to add a new note',
         username: "Blaze",
         date: days[currentDay] + ' ' + date.toLocaleTimeString()
