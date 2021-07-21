@@ -1,0 +1,16 @@
+extends base
+
+block content
+  header 
+    h1= 'Message Board'
+    p= 'speak or forever hold your peace'
+  main
+    .button-container
+      a(href=`/new`): button.compose= "Add note.."
+    each message in messages 
+      section.message-card 
+        h2= message.title
+        p.description= message.description
+        footer 
+          p.username= message.username
+          p.date= message.date
